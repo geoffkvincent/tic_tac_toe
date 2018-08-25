@@ -1,9 +1,31 @@
 .button_grid {
-  width: 550px;
-  height: 550px;
+  width: 490px;
+  height: 490px;
   border: 3px solid black;
   display: flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  justify-content:center;
+  align-content: center;
+  background-color: rgb(58, 226, 108);
+}
+.greeting {
+  display: flex;
+  justify-content: space-around;
+}
+
+.reset {
+width:70px;
+height:40px;
+margin-top: 20px;
+margin-right:40px;
+background-color: rgb(58, 226, 108);
+color: black;
+border: 3px solid black;
+}
+
+.title {
+ margin-left:400px;
+ color: rgb(58, 226, 108);
 }
 
 .game {
@@ -12,13 +34,28 @@
   
 }
 
-.title {
-  display: flex;
-  justify-content: center;
-}
+
 
 .button {
   width: 150px;
   height: 150px;
- 
+  background-color: black
+}
+
+.score {
+  display:flex;
+  justify-content: center;
+  
+}
+
+.player_1_score {
+padding-right: 150px
+}
+
+.player_2_score {
+
+}
+
+body {
+  background-color: rgba(26, 64, 187, 0.87);
 }
