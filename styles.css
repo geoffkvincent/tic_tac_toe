@@ -39,7 +39,8 @@ border: 3px solid black;
 .button {
   width: 150px;
   height: 150px;
-  background-color: black
+  background-color: black;
+  font-size: 100px
 }
 
 .score {
@@ -56,6 +57,51 @@ padding-right: 150px
 
 }
 
+#player1 {
+  padding-right: 150px;
+  color: white;
+}
+
+#player2 {
+  color: white;
+}
+
 body {
   background-color: rgba(26, 64, 187, 0.87);
+}
+
+#b1 {
+  color: white;
+}
+
+#b2 {
+  color: white;
+}
+
+#b3 {
+  color: white;
+}
+
+#b4 {
+  color: white;
+}
+
+#b5 {
+  color: white;
+}
+
+#b6 {
+  color: white;
+}
+
+#b7 {
+  color: white;
+}
+
+#b8 {
+  color: white;
+}
+
+#b9 {
+  color: white;
 }
