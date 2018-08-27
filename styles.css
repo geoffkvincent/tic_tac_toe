@@ -14,18 +14,18 @@
 }
 
 #reset {
-width:70px;
-height:40px;
-margin-top: 20px;
-margin-right:40px;
-background-color: rgb(58, 226, 108);
-color: black;
-border: 3px solid black;
+  width:70px;
+  height:40px;
+  margin-top: 20px;
+  margin-right:40px;
+  background-color: rgb(58, 226, 108);
+  color: black;
+  border: 3px solid black;
 }
 
 .title {
- margin-left:400px;
- color: rgb(58, 226, 108);
+  margin-left:400px;
+  color: rgb(58, 226, 108);
 }
 
 .game {
@@ -34,27 +34,11 @@ border: 3px solid black;
   
 }
 
-
-
 .button {
   width: 150px;
   height: 150px;
   background-color: black;
   font-size: 100px
-}
-
-.score {
-  display:flex;
-  justify-content: center;
-  
-}
-
-.player_1_score {
-padding-right: 150px
-}
-
-.player_2_score {
-
 }
 
 #player1 {

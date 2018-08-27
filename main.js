@@ -1,3 +1,4 @@
+
 var reset = document.getElementById('reset')
 var button = document.getElementsByClassName('button')
 var b1 = document.getElementById('b1')
@@ -17,37 +18,18 @@ var currentMarker = 'X'
 function whoJustPlayed (){
   if (currentPlayer === 'player1') {
     console.log(currentPlayer)
-    // console.log('next player is player2')
     currentPlayer = 'player2'
     currentMarker = 'O'
   } else {
     console.log(currentPlayer)
-    // console.log('next player is player1')
     currentPlayer = 'player1'
     currentMarker = 'X'
   }
 }
-
-
-
-
-// function compare(userChoice, pcChoice) {
-//   if ((userChoice == 'Rock' && pcChoice == 'Scissors')||(userChoice == 'Paper' && pcChoice == 'Rock')||(userChoice == 'Scissors' && pcChoice == 'Paper')) {
-//     alert(`Pc chose ${pcChoice}. You Win!`)
-//   } else if (userChoice == pcChoice) {
-//     alert(`Pc chose ${pcChoice}. Tie!`)
-//   } else {
-//     alert(`Pc chose ${pcChoice}. You Lose!`)
-//   }
-// }
-
-
-
-
-
-
 function setMarkerB1 () {
   b1.innerHTML = currentMarker
+  var b1_value = b1.value
+  console.log(b1_value)
 }
 function setMarkerB2 () {
   b2.innerHTML = currentMarker
@@ -74,29 +56,8 @@ function setMarkerB9 () {
   b9.innerHTML = currentMarker
 }
 reset.addEventListener('click', function(){
-  // currentMarker = 'X'
-  // b1.innerHTML = ""
-  // b2.innerHTML = ""
-  // b3.innerHTML = ""
-  // b4.innerHTML = ""
-  // b5.innerHTML = ""
-  // b6.innerHTML = ""
-  // b7.innerHTML = ""
-  // b8.innerHTML = ""
-  // b9.innerHTML = ""
   document.location.reload()
 })
-
-// function winner(){
-//   if ((b1 === 'X' && b2 ==='X' && b3 === 'X')|| (b4 ==='X' && b5 ==='X' && b6 ==='X')||(b7 ==='X' && b8 ==='X' && b9 ==='X')
-// ||(b1 ==='X' && b4 ==='X' && b7==='X')||(b2 ==='X' && b5 ==='X' && b8 ==='X')
-// ||(b3 ==='X' && b6 ==='X' && b9 ==='X')||(b1 ==='X' && b5 ==='X' && b9 ==='X')
-// ||(b3 ==='X' && b5 ==='X' && b7 ==='X')){
-//   alert('winner')
-// }else{
-//   alert('loser')
-// }
-// }
 b1.addEventListener('click', setMarkerB1)
 b2.addEventListener('click', setMarkerB2)
 b3.addEventListener('click', setMarkerB3)
